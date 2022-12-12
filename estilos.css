@@ -13,11 +13,14 @@
 body {
     background-color: var(--lightGrey);
     font-family: 'Outfit', sans-serif;
-    position: relative;
-
+    min-height:100vh; 
+    display: flex;
+     align-items:center;
+      justify-content: center;
+      flex-wrap: wrap;
 }
 
-.contenedor {
+main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,7 +52,9 @@ img {
     text-align: center;
     color: var(--grayishblue);
 }
-
+footer{
+    width: 100%;
+}
 .attribution {
     font-size: 11px;
     text-align: center;
